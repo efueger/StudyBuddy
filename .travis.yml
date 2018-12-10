@@ -31,3 +31,4 @@ after_script:
 after_failure:
   - if [ -f tests/tests.log ]; then cat tests/tests.log && sleep 10; fi
   - echo == End of test log ==
+
